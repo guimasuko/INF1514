@@ -1,0 +1,77 @@
+\documentclass[12pt, a4paper]{article}
+
+% Packages and Formatting
+\usepackage{../../sub/mystyle_general}
+\usepackage{../../sub/mystyle_article}
+
+
+\title{Lista 1 - Introdução a Análise de Dados \\
+Funções}
+\author{Guilherme Masuko}
+\date{March 2023}
+%\affil{}
+
+
+\begin{document}
+	
+% Title Page
+\clearpage
+\maketitle
+\thispagestyle{empty}
+
+\textbf{Questão 1}
+
+Crie uma função que recebe três parâmetros $a$, $b$, $c$, os coeficientes de uma função do segundo grau e retorne as raízes dessa função.
+
+Uma função do segundo grau tem a seguinte forma 
+
+\begin{align*}
+	f(x) = ax^2 + bx + c
+\end{align*}
+
+As raízes de uma função do segundo grau são os $x$'s cujo a função $f(x)$ cruza o eixo das abscissas (horizontal), isso é, $f(x) = 0$.
+
+Para criar a função precisamos relembrar da fórmula de Bhaskara.\footnote{\url{https://pt.wikipedia.org/wiki/F\%C3\%B3rmula_quadr\%C3\%A1tica}}
+
+\begin{align*}
+	\Delta &= b^2 -4\cdot a\cdot c \\
+	x_{1,2} &= \frac{-b \pm \sqrt{\Delta}}{2\cdot a}
+\end{align*}
+
+Lembre-se dos casos em que $\Delta$ é negativo, positivo e igual a zero.
+
+Teste sua função para as seguintes funções:
+
+\begin{itemize}
+	\item $f(x) = x^2$
+	\item $f(x) = 2x^2 - 18$
+	\item $f(x) = x^2 - 4x + 10$
+	\item $f(x) = -2x^2 + 20x - 50$
+\end{itemize}
+
+
+
+\textbf{Questão 2}
+
+Com base na questão anterior, crie uma nova função que recebe os mesmos parâmetros $a$, $b$ e $c$, coeficientes de uma função do segundo grau, mas que agora retorno um gráfico dessa função.
+
+
+
+\textbf{Questão 3}
+
+Crie uma função que recebe um número como parâmetro e devolve se o número é primo ou não.
+
+Definição de número primo: Um número primo é um número natural maior que um, tal que não é resultado do produto da multiplicação de dois números naturais, isso é, são números que são divisíveis apenas por ele mesmo dentro da classe dos naturais sem o 1.\footnote{\url{https://pt.wikipedia.org/wiki/Numero_primo}}
+
+Dica: A função que retorna o resto da divisão inteira é '\%\%'.
+
+Teste sua função para os seguintes valores
+
+\begin{itemize}
+	\item valores de 2 à 20
+	\item 577
+	\item 753
+	\item 997
+\end{itemize}
+
+\end{document}
