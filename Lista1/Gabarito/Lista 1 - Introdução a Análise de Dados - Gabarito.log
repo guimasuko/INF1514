@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.6)  29 MAR 2023 17:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.6)  4 APR 2023 11:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1073,9 +1073,9 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 
 {C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 80.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 80
-.
+nput line 110.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 11
+0.
 
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1091,47 +1091,51 @@ File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
 59-1.def
 File: se-iso-8859-1.def 2019/11/29 v1.12 stringenc: ISO-8859-1
 ) [2]
-Overfull \hbox (4.585pt too wide) in paragraph at lines 87--88
+Overfull \hbox (4.585pt too wide) in paragraph at lines 117--118
 []\T1/ppl/m/n/12 Com base na quest�o an-te-rior, crie uma nova fun��o que re-ce
 be os mes-mos par�met-
  []
 
+[3] (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2021/02/14 v1.3d Input encoding file
+)
+<images/function1.png, id=68, 237.88875pt x 259.7203pt>
+File: images/function1.png Graphic file (type png)
+<use images/function1.png>
+Package pdftex.def Info: images/function1.png  used on input line 132.
+(pdftex.def)             Requested size: 237.88815pt x 259.71967pt.
+
+[4]
+<images/function2.png, id=103, 237.88875pt x 259.7203pt>
+File: images/function2.png Graphic file (type png)
+<use images/function2.png>
+Package pdftex.def Info: images/function2.png  used on input line 139.
+(pdftex.def)             Requested size: 237.88815pt x 259.71967pt.
+<images/function3.png, id=104, 237.88875pt x 259.7203pt>
+File: images/function3.png Graphic file (type png)
+<use images/function3.png>
+Package pdftex.def Info: images/function3.png  used on input line 147.
+(pdftex.def)             Requested size: 237.88815pt x 259.71967pt.
+ [5 <./images/function1.png> <./images/function2.png>]
+<images/function4.png, id=113, 237.88875pt x 259.7203pt>
+File: images/function4.png Graphic file (type png)
+<use images/function4.png>
+Package pdftex.def Info: images/function4.png  used on input line 155.
+(pdftex.def)             Requested size: 237.88815pt x 259.71967pt.
+ [6 <./images/function3.png> <./images/function4.png>]
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2021/02/14 v1.3d Input encoding file
 )
-[3]
-<images/function1.png, id=97, 237.88875pt x 259.7203pt>
-File: images/function1.png Graphic file (type png)
-<use images/function1.png>
-Package pdftex.def Info: images/function1.png  used on input line 102.
-(pdftex.def)             Requested size: 237.88815pt x 259.71967pt.
-File: images/function1.png Graphic file (type png)
-<use images/function1.png>
-Package pdftex.def Info: images/function1.png  used on input line 109.
-(pdftex.def)             Requested size: 237.88815pt x 259.71967pt.
-File: images/function1.png Graphic file (type png)
-<use images/function1.png>
-Package pdftex.def Info: images/function1.png  used on input line 117.
-(pdftex.def)             Requested size: 237.88815pt x 259.71967pt.
- [4 <./images/function1.png>]
-File: images/function1.png Graphic file (type png)
-<use images/function1.png>
-Package pdftex.def Info: images/function1.png  used on input line 125.
-(pdftex.def)             Requested size: 237.88815pt x 259.71967pt.
- [5]
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
-File: latin1.def 2021/02/14 v1.3d Input encoding file
-)
-[6] [7] (Lista 1 - Introdução a Análise de Dados - Gabarito.aux)
+[7] [8] [9] (Lista 1 - Introdução a Análise de Dados - Gabarito.aux)
 Package rerunfilecheck Info: File `"Lista 1 - Introdução a Análise de Dados 
 - Gabarito".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28215 strings out of 476339
- 537392 string characters out of 5787176
- 1939340 words of memory out of 5000000
- 47955 multiletter control sequences out of 15000+600000
+ 28281 strings out of 476339
+ 538491 string characters out of 5787176
+ 1937340 words of memory out of 5000000
+ 47981 multiletter control sequences out of 15000+600000
  538151 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,9n,145p,501b,3328s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1154,9 +1158,9 @@ iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local
 ocal/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Usuario/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
 Output written on "Lista 1 - Introdução a Análise de Dados - Gabarito.pdf" (
-7 pages, 128767 bytes).
+9 pages, 144669 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
- 112 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 270 PDF objects out of 1000 (max. 8388607)
+ 149 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

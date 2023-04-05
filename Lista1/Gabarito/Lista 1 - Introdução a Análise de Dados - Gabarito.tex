@@ -77,6 +77,36 @@ Teste sua função para as seguintes funções:
 
 \textbf{Solução}
 
+\begin{itemize}
+	\item $f(x) = x^2$
+	\begin{align*}
+		\Delta = 0^2 - 4\cdot 1\cdot 0 \\
+		x_{1,2} = \frac{-0}{2\cdot1} = 0
+	\end{align*}
+	\item $f(x) = 2x^2 - 18$
+	\begin{align*}
+		\Delta &= 0^2 - 4\cdot 2\cdot (-18) \\
+		&= 144\\
+		x_1 &= \frac{-0 + \sqrt{144}}{2\cdot2}\\
+		&= \frac{12}{4} = 3\\
+		x_2 &= \frac{-0 - \sqrt{144}}{2\cdot2}\\
+		&= \frac{-12}{4} = -3
+	\end{align*}
+	\item $f(x) = x^2 - 4x + 10$
+	\begin{align*}
+		\Delta &= (-4)^2 - 4\cdot 1\cdot 10 \\
+		&= 16 - 40 = -24\\
+		\Delta &< 0
+	\end{align*}
+	\item $f(x) = -2x^2 + 20x - 50$
+	\begin{align*}
+		\Delta &= 20^2 - 4\cdot (-2)\cdot (-50) \\
+		&= 400 - 400 = 0\\
+		x_{1,2} &= \frac{-20}{2\cdot(-2)}\\
+		&= \frac{-20}{-4} = 5
+	\end{align*}
+\end{itemize}
+
 \lstinputlisting[language=R]{codes/solution1.R}
 
 
@@ -106,7 +136,7 @@ Plots resultantes.
 \begin{figure}[H]
 	\caption{$f(x) = 2x^2 - 18$}
 	\centering
-	\includegraphics[scale=1]{images/function1.png}
+	\includegraphics[scale=1]{images/function2.png}
 	\label{fig:function2}
 \end{figure}
 
@@ -114,7 +144,7 @@ Plots resultantes.
 \begin{figure}[H]
 	\caption{$f(x) = x^2 - 4x + 10$}
 	\centering
-	\includegraphics[scale=1]{images/function1.png}
+	\includegraphics[scale=1]{images/function3.png}
 	\label{fig:function3}
 \end{figure}
 
@@ -122,7 +152,7 @@ Plots resultantes.
 \begin{figure}[H]
 	\caption{$f(x) = -2x^2 + 20x - 50$}
 	\centering
-	\includegraphics[scale=1]{images/function1.png}
+	\includegraphics[scale=1]{images/function4.png}
 	\label{fig:function4}
 \end{figure}
 

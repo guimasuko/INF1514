@@ -1,29 +1,64 @@
-grafico_funcao_2grau <- function(a, b, c) {
-  # primeiro geramos uma sequência de valores para x, de -10 a 10, de meio em meio
-  x <- seq(-10, 10, 0.5)
-  # depois geramos uma sequência de valores nulos do mesmo tamanho que o vetor x
-  y <- rep(0, length(x))
-  # precisamos de uma variável de indice
-  index <- 0
-  # agora faremos um loop, para cada valor de x, temos um valor de y respectivo
-  for (valor_x in x) {
-    index <- index + 1
-    y[index] <- a * valor_x^2 + b * valor_x + c
+numero_primo <- function(numero) {
+  # precisamos criar uma sequência na qual um loop será usado
+  seq = 2:(numero-1)
+  # criamos também uma variável lógica (binária) que recebe TRUE (se for primo)
+  # e FALSE (caso contrário)
+  e_primo <- TRUE
+  if (numero == 2) {
+    # a sequência para o número 2 ficaria 2:1, não é a maneira que gostaríamos,
+    # para esse caso sabemos que o 2 é um número primo
+    return(paste(numero,'é um número primo'))
+  } else {
+    # caso contrário, fazemos um loop, se o parâmetro passado for divisível por 
+    # algum valor dentre os pertencentes a sequência, então não é primo
+    for (i in seq) {
+      if ((numero %% i) == 0 ) {
+        e_primo <- FALSE
+        # se for divisível, guardaremos os valores aos quais decompõe o parâmetro
+        decomp_1 <- i
+        decomp_2 <- (numero / i)
+        # break é uma função que força o loop a parar
+        break
+      }
+    }
+    if (e_primo == TRUE) {
+      return(paste(numero,'é um número primo'))
+    } else {
+      return(paste(numero,'não é um número primo porque',decomp_1,'x',decomp_2,'=',numero))
+    }
   }
-  plot(x, y)
 }
 
-# f(x) = x^2 
-grafico_funcao_2grau(1, 0, 0)
 
 
-# f(x) = 2x^2 - 18
-grafico_funcao_2grau(a=2, b=0, c=-18)
+# valores de 2 à 20
+
+numero_primo(2)
+numero_primo(3)
+numero_primo(4)
+numero_primo(5)
+numero_primo(6)
+numero_primo(7)
+numero_primo(8)
+numero_primo(9)
+numero_primo(10)
+numero_primo(11)
+numero_primo(12)
+numero_primo(13)
+numero_primo(14)
+numero_primo(15)
+numero_primo(16)
+numero_primo(17)
+numero_primo(18)
+numero_primo(19)
+numero_primo(20)
 
 
-# f(x) = x^2 - 4x + 10
-grafico_funcao_2grau(a=1, b=-4, c=10)
+# 577
+numero_primo(577)
 
+# 753
+numero_primo(753)
 
-# f(x) = -2x^2 + 20x - 50
-grafico_funcao_2grau(a=-2, b=20, c=-50)
+# 997
+numero_primo(997)
