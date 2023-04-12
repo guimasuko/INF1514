@@ -1,0 +1,264 @@
+\documentclass[12pt, a4paper]{article}
+
+% Packages and Formatting
+\usepackage{../../sub/mystyle_general}
+\usepackage{../../sub/mystyle_article}
+
+
+\title{Lista 4 - Introdução a Análise de Dados \\
+	Funções \& Loops}
+\author{Guilherme Masuko}
+\date{April 2023}
+%\affil{}
+
+
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+	language=R,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+
+\lstset{inputencoding=utf8/latin1}
+
+
+\begin{document}
+	
+% Title Page
+\clearpage
+\maketitle
+\thispagestyle{empty}
+
+\textbf{Questão 1}
+
+Crie dois loops. O primeiro deverá printar na tela os valores de 1 à 10 fazendo uso do \texttt{for}. O segundo deverá printar no console os valores de 1 à 5 usando o comando \texttt{while}.
+
+
+
+\textbf{Solução}
+
+\lstinputlisting[language=R]{codes/solution1.R}
+
+
+
+\textbf{Questão 2}
+
+Crie duas funções, \texttt{ate\_n\_for} e \texttt{ate\_n\_while}, que recebam um parâmetro $n$ e executam os comandos que fizemos na questão anterior. Isso é, a primeira função deverá printar na tela os valores de 1 à $n$ fazendo uso do \texttt{for}. A segunda deverá printar no console os valores de 1 à $n$ usando o comando \texttt{while}.
+
+
+
+\textbf{Solução}
+
+\lstinputlisting[language=R]{codes/solution2.R}
+
+
+
+\textbf{Questão 3}
+
+Crie um loop que imprima no console a tabuada de 1 à 10.
+
+
+
+\textbf{Solução}
+
+\lstinputlisting[language=R]{codes/solution3.R}
+
+
+
+\textbf{Questão 4}
+
+\begin{itemize}
+	\item[\textbf{a)}] Faça um loop para fazer o somatório de um vetor que vai de 1 à 10.
+	
+		\begin{align*}
+			1+ 2+ 3 + ... + 10
+		\end{align*}
+	
+	
+	
+	\textbf{Solução}
+	
+	\lstinputlisting[language=R]{codes/solution4a.R}
+	
+	
+	
+	\item[\textbf{b)}] Agora crie uma função que recebe o valor $n$ e retorna o valor da soma.
+	
+		\begin{align*}
+			1+ 2+ 3 + ... + n
+		\end{align*}
+	
+	
+	\textbf{Solução}
+	
+	\lstinputlisting[language=R]{codes/solution4b.R}
+	
+	
+		
+\end{itemize}
+
+
+
+\textbf{Questão 5}
+
+\begin{itemize}
+	\item[\textbf{a)}] Faça um loop que realize o cálculo do fatorial de 10.
+	
+		\begin{align*}
+			10! = 1\cdot 2\cdot 3 \cdot ... \cdot 10
+		\end{align*}
+	
+	
+	
+	\textbf{Solução}
+	
+	\lstinputlisting[language=R]{codes/solution5a.R}
+	
+	
+
+	\item[\textbf{b)}] Agora crie uma função que recebe o valor $n$ e retorne o valor do fatorial.
+	
+		\begin{align*}
+			n! = 1\cdot 2\cdot 3 \cdot ... \cdot n
+		\end{align*}
+	
+	
+	
+	\textbf{Solução}
+	
+	\lstinputlisting[language=R]{codes/solution5b.R}
+	
+	
+	
+\end{itemize}
+
+
+
+
+
+
+\textbf{Questão 6}
+
+\begin{itemize}
+	\item[\textbf{a)}] Use o loop \texttt{while} para investigar o número de termos necessários antes que o produto
+	
+		\begin{align*}
+			1\cdot 2\cdot 3\cdot ...
+		\end{align*}
+	
+	alcance mais que um milhão. 
+	
+	
+	
+	\textbf{Solução}
+	
+	\lstinputlisting[language=R]{codes/solution6a.R}
+	
+	
+	
+	\item[\textbf{b)}] Agora faça uma função que receba o valor $n$ e retorne o número de termos necessários antes que o produto acima alcance mais que $n$.
+	
+	
+	
+	\textbf{Solução}
+	
+	\lstinputlisting[language=R]{codes/solution6b.R}
+	
+	
+	
+\end{itemize}
+		
+
+
+\textbf{Questão 7}
+
+A sequência de Fibonacci\footnote{\url{https://pt.wikipedia.org/wiki/Sequ\%C3\%AAncia\_de\_Fibonacci}} é uma sequência de números inteiros, começando normalmente por 0 e 1, na qual o termo subsequente corresponde à soma dos dois anteriores.
+
+Os números que compõem a sequência de Fibonacci são:
+
+\begin{align*}
+	0,1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, ...
+\end{align*}
+
+A sequência é definida recursivamente pela fórmula abaixo.
+
+\begin{align*}
+	F_n = F_{n-1} + F_{n-2}
+\end{align*}
+
+e valores iniciais $F_1 = 0$ e $F_2 = 1$.
+
+Notação: A notação $(F_n)_{n\in A}$ é usada para denotar a sequência $F$, cujos índices são tomados no conjunto $A$. Quando o conjunto dos índices $A$ está subentendido, normalmente escrevemos $(F_{n})_{{n}}$ ou, simplesmente, $(F_{n})$. Por extenso, escrevemos $(F_{n})_{n}=(F_{1},F_{2},F_{3},\ldots )$. Observamos, ainda, que as notações $\{F_{n}\}_{{n=1}}^{{\infty }}$ e $\{F_{n}\}$ também são encontradas.
+
+
+
+\begin{itemize}
+	\item[\textbf{a)}] Crie um vetor contendo os primeiros 50 valores da sequência de Fibonacci. Utilize o comando \texttt{for} para adicionar novos elementos ao vetor.
+	
+	
+	
+	\textbf{Solução}
+	
+	\lstinputlisting[language=R]{codes/solution7a.R}
+	
+	
+	
+	\item[\textbf{b)}] Crie uma função que recebe como parâmetro o valor $n$. A função deve retornar um vetor contendo os primeiros $n$ valores da sequência de Fibonacci utilizando o programa feito a partir do comando \texttt{for}.
+	
+	
+	
+	\textbf{Solução}
+	
+	\lstinputlisting[language=R]{codes/solution7b.R}
+	
+	
+	
+\end{itemize}
+
+
+
+\textbf{Questão 8}
+
+\begin{itemize}
+	\item[\textbf{a)}] Crie um vetor contendo os primeiros 50 valores da sequência de Fibonacci. Utilize o comando \texttt{while} para adicionar novos elementos ao vetor.
+	
+	
+	
+	\textbf{Solução}
+	
+	\lstinputlisting[language=R]{codes/solution8a.R}
+	
+	
+	
+	\item[\textbf{b)}] Crie uma função que recebe como parâmetro o valor $n$. A função deve retornar um vetor contendo os primeiros $n$ valores da sequência de Fibonacci utilizando o programa feito a partir do comando \texttt{while}.
+	
+	
+	
+	\textbf{Solução}
+	
+	\lstinputlisting[language=R]{codes/solution8b.R}
+	
+	
+	
+\end{itemize}
+
+
+
+
+	
+\end{document}

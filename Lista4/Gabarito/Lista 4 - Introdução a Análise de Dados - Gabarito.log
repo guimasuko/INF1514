@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.6)  11 APR 2023 19:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.6)  11 APR 2023 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"./Lista 2 - Introdução a Análise de Dados - Gabarito.tex"
-(Lista 2 - Introdução a Análise de Dados - Gabarito.tex
+**"./Lista 4 - Introdução a Análise de Dados - Gabarito.tex"
+(Lista 4 - Introdução a Análise de Dados - Gabarito.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-07>
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -985,8 +985,8 @@ dftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count336
 \l__pdf_internal_box=\box71
-) (Lista 2 - Introdução a Análise de Dados - Gabarito.aux)
-\openout1 = `"Lista 2 - Introdução a Análise de Dados - Gabarito.aux"'.
+) (Lista 4 - Introdução a Análise de Dados - Gabarito.aux)
+\openout1 = `"Lista 4 - Introdução a Análise de Dados - Gabarito.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
@@ -1008,10 +1008,10 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 Package hyperref Info: Link coloring OFF on input line 40.
 
-(Lista 2 - Introdução a Análise de Dados - Gabarito.out)
-(Lista 2 - Introdução a Análise de Dados - Gabarito.out)
+(Lista 4 - Introdução a Análise de Dados - Gabarito.out)
+(Lista 4 - Introdução a Análise de Dados - Gabarito.out)
 \@outlinefile=\write4
-\openout4 = `"Lista 2 - Introdução a Análise de Dados - Gabarito.out"'.
+\openout4 = `"Lista 4 - Introdução a Análise de Dados - Gabarito.out"'.
 
 \c@lstlisting=\count337
 
@@ -1062,24 +1062,15 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-[1
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 49
+.
 
-
-{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 8
-8.
-
-(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
-File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-)
-[2]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 151.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 15
-1.
- (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 55.
+
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2021/02/14 v1.3d Input encoding file
 )
@@ -1090,45 +1081,78 @@ File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-iso-88
 59-1.def
 File: se-iso-8859-1.def 2019/11/29 v1.12 stringenc: ISO-8859-1
-) [3] [4] [5] [6] [7] [8]
+) [1
+
+
+{C:/Users/Usuario/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (C:\Users\
+Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2021/02/14 v1.3d Input encoding file
+)
+[2] (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2021/02/14 v1.3d Input encoding file
+)
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2021/02/14 v1.3d Input encoding file
 )
-[9] [10] [11] [12] [13]
-(Lista 2 - Introdução a Análise de Dados - Gabarito.aux)
-Package rerunfilecheck Info: File `"Lista 2 - Introdução a Análise de Dados 
+[3] (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2021/02/14 v1.3d Input encoding file
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2021/02/14 v1.3d Input encoding file
+)
+[4] (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2021/02/14 v1.3d Input encoding file
+)
+[5] (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2021/02/14 v1.3d Input encoding file
+)
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2021/02/14 v1.3d Input encoding file
+)
+[6] (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2021/02/14 v1.3d Input encoding file
+)
+[7] (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2021/02/14 v1.3d Input encoding file
+)
+[8] (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2021/02/14 v1.3d Input encoding file
+)
+[9] (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+File: latin1.def 2021/02/14 v1.3d Input encoding file
+)
+[10] (Lista 4 - Introdução a Análise de Dados - Gabarito.aux)
+Package rerunfilecheck Info: File `"Lista 4 - Introdução a Análise de Dados 
 - Gabarito".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28413 strings out of 476339
- 540001 string characters out of 5787176
- 1932340 words of memory out of 5000000
- 47970 multiletter control sequences out of 15000+600000
- 538151 words of font info for 84 fonts, out of 8000000 for 9000
+ 28378 strings out of 476339
+ 540976 string characters out of 5787176
+ 1919340 words of memory out of 5000000
+ 47943 multiletter control sequences out of 15000+600000
+ 538218 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,9n,145p,501b,3324s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,8n,145p,506b,2720s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
 {C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
-/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cme
-x10.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmmi12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Usuario/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Usuario/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/
-Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Us
-ers/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><
-C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.
-pfb>
-Output written on "Lista 2 - Introdução a Análise de Dados - Gabarito.pdf" (
-13 pages, 178074 bytes).
+/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Users/Usuario/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Usuario/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Usuario/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Usuario/App
+Data/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Usuario
+/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Us
+uario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on "Lista 4 - Introdução a Análise de Dados - Gabarito.pdf" (
+10 pages, 162885 bytes).
 PDF statistics:
- 468 PDF objects out of 1000 (max. 8388607)
- 301 named destinations out of 1000 (max. 500000)
+ 407 PDF objects out of 1000 (max. 8388607)
+ 264 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
