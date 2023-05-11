@@ -1,0 +1,1 @@
+ipca <- ipca['IPCA_Acumulado']

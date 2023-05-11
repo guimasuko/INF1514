@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.6)  11 APR 2023 23:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.6)  27 APR 2023 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -975,7 +975,7 @@ File: lstlang2.sty 2020/03/24 1.8d listings language file
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.sty
 File: lstlang3.sty 2020/03/24 1.8d listings language file
 )
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 40
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 41
 .
  (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
@@ -988,25 +988,25 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (Lista 4 - Introdução a Análise de Dados - Gabarito.aux)
 \openout1 = `"Lista 4 - Introdução a Análise de Dados - Gabarito.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-Package hyperref Info: Link coloring OFF on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+Package hyperref Info: Link coloring OFF on input line 41.
 
 (Lista 4 - Introdução a Análise de Dados - Gabarito.out)
 (Lista 4 - Introdução a Análise de Dados - Gabarito.out)
@@ -1050,26 +1050,26 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
 
 
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
 
 
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 49
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 50
 .
 
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 55.
+nput line 56.
 
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2021/02/14 v1.3d Input encoding file
@@ -1109,10 +1109,11 @@ File: latin1.def 2021/02/14 v1.3d Input encoding file
 (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2021/02/14 v1.3d Input encoding file
 )
-[6] (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+[6] [7]
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2021/02/14 v1.3d Input encoding file
 )
-[7] (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
+(C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
 File: latin1.def 2021/02/14 v1.3d Input encoding file
 )
 [8] (C:\Users\Usuario\AppData\Local\Programs\MiKTeX\tex/latex/base\latin1.def
@@ -1129,7 +1130,7 @@ Package rerunfilecheck Info: File `"Lista 4 - Introdução a Análise de Dados
 Here is how much of TeX's memory you used:
  28378 strings out of 476339
  540976 string characters out of 5787176
- 1919340 words of memory out of 5000000
+ 1911340 words of memory out of 5000000
  47943 multiletter control sequences out of 15000+600000
  538218 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1150,7 +1151,7 @@ Data/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Usuario
 /AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Us
 uario/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
 Output written on "Lista 4 - Introdução a Análise de Dados - Gabarito.pdf" (
-10 pages, 162885 bytes).
+10 pages, 163072 bytes).
 PDF statistics:
  407 PDF objects out of 1000 (max. 8388607)
  264 named destinations out of 1000 (max. 500000)

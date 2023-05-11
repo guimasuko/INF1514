@@ -1,0 +1,1 @@
+ipca['IPCA_Acumulado'] <- (1 + ipca['IPCA']) * (1 + ipca['IPCA_1']) * (1 + ipca['IPCA_2']) * (1 + ipca['IPCA_3']) * (1 + ipca['IPCA_4']) * (1 + ipca['IPCA_5']) * (1 + ipca['IPCA_6']) * (1 + ipca['IPCA_7']) * (1 + ipca['IPCA_8']) * (1 + ipca['IPCA_9']) * (1 + ipca['IPCA_10']) * (1 + ipca['IPCA_11']) - 1

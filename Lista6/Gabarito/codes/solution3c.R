@@ -1,0 +1,1 @@
+ibov$X <- NULL

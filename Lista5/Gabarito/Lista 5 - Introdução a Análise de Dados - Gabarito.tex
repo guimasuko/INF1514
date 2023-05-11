@@ -1,0 +1,253 @@
+\documentclass[12pt, a4paper]{article}
+
+% Packages and Formatting
+\usepackage{../../sub/mystyle_general}
+\usepackage{../../sub/mystyle_article}
+
+
+\title{Lista 5 - Introdução a Análise de Dados \\
+	Dataframes \\
+	Gabarito}
+\author{Guilherme Masuko}
+\date{May 2023}
+%\affil{}
+
+
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+	language=R,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+
+\lstset{inputencoding=utf8/latin1}
+
+
+\begin{document}
+	
+% Title Page
+\clearpage
+\maketitle
+\thispagestyle{empty}
+
+
+Para essa lista, utilizaremos uma base de dados própria do R chamada "Motor Trend Car Road Tests". Utilize os comandos \texttt{data(mtcars)} e \texttt{View(mtcars)} para importar e visualizar os dados respectivamente. Para conhecer melhor essa base de dados (entender o significado de cada coluna, por exemplo), deve-se usar o seguinte comando \texttt{?mtcars}.
+
+\textbf{Questão 1}
+
+Encontre, utilizando código, o carro mais econômico dessa amostra (maior milhas por galão ($mpg$)).
+
+\textbf{Solução}
+
+\lstinputlisting[language=R]{codes/solution1.R}
+
+
+
+\textbf{Questão 2}
+
+Encontre, utilizando código, o carro menos econômico dessa amostra (menor milhas por galão ($mpg$)).
+
+\textbf{Solução}
+
+\lstinputlisting[language=R]{codes/solution2.R}
+
+
+
+\textbf{Questão 3}
+
+Dentro da categoria de carros mais potentes (digamos, $hp > 120$), qual é o carro mais econômico?
+
+\textbf{Solução}
+
+\lstinputlisting[language=R]{codes/solution3.R}
+
+
+
+\textbf{Questão 4}
+
+E dentro da categoria de carros menos potentes (digamos, $hp \leq 120$), qual é o carro menos econômico?
+
+\textbf{Solução}
+
+\lstinputlisting[language=R]{codes/solution4.R}
+
+
+
+\textbf{Questão 5}
+
+Existe um \textit{trade-off} entre economia e potência de carros? Siga as intruções a seguir para responder essa pergunta.
+
+
+\begin{itemize}
+	\item[\textbf{a)}] Crie uma função que recebe dois vetores de mesmo tamanho e retorne a covariância\footnote{\url{https://en.wikipedia.org/wiki/Covariance}} (amostral) entre esses dois vetores.
+	
+	A covariância (populacional) entre duas variáveis é obtida através de
+	\begin{align*}
+		\mathbb{C}(X, Y) = \mathbb{E}\left[ (X - \mathbb{E}[X]) (Y - \mathbb{E}[Y]) \right]
+	\end{align*}
+	
+	Mas como nossa base não tem todos os carros do mundo, vamos utilizar um estimador para a covariância verdadeiro (populacional), esse estimador é a covariância amostral, obtida através de
+	\begin{align*}
+		\widehat{\mathbb{C}(X, Y)} = \frac{1}{n-1} \sum_{i=1}^n (X_i - \mu_{X})(Y_i - \mu_{Y})
+	\end{align*}
+	onde $\mu_{X}$ e $\mu_{Y}$ são as médias amostrais da variáveis $X$ e $Y$, respectivamente.
+	
+	Obs: O aluno deve utilizar a formula do estimador para criar a função.
+	
+	\textbf{Solução}
+	
+	\lstinputlisting[language=R]{codes/solution5a.R}
+	
+	
+	
+	\item[\textbf{b)}] Crie uma função que receba dois vetores de mesmo tamanho como parâmetros e retorne a correlação\footnote{\url{https://en.wikipedia.org/wiki/Pearson_correlation_coefficient}} (amostral) entre eles.
+	
+	A correlação (populacional) entre duas variáveis é obtida através de
+	\begin{align*}
+		\rho_{X, Y} = \frac{\mathbb{C}(X, Y)}{\sigma_X\cdot \sigma_Y}
+	\end{align*}
+	onde $\sigma_X$ e $\sigma_Y$ são os devios-padrão populacionais da variáveis $X$ e $Y$, respectivamente.
+	
+	E seu estimador é a correlação amostral, obtida através de
+	\begin{align*}
+		\widehat{\rho_{X, Y}} = \frac{\widehat{\mathbb{C}(X, Y)}}{\widehat{\sigma_X}\cdot \widehat{\sigma_Y}}
+	\end{align*}
+	onde $\widehat{\sigma_X}$ e $\widehat{\sigma_Y}$ são os devios-padrão amostrais da variáveis $X$ e $Y$, respectivamente.
+	
+	Obs: O aluno deve utilizar a formula do estimador para criar a função.
+	\textbf{Solução}
+	
+	\lstinputlisting[language=R]{codes/solution5b.R}
+	
+	
+	
+	\item[\textbf{c)}] Calcule a correção entre as duas variáveis economia e potência do carro (representadas por $mpg$ e $hp$, respectivamente) para responder a pergunta principal.
+
+	\textbf{Solução}
+	
+	\lstinputlisting[language=R]{codes/solution5c.R}
+	
+	
+	
+\end{itemize}
+
+
+
+\textbf{Questão 6}
+
+Crie uma coluna ($wt\_kg$) que contenha o peso de libras ($wt$) convertido em quilogramas. Note que a medida da coluna $wt$ equivale a 1000 libras. A fórmula de conversão é:
+
+\begin{align*}
+	\text{peso em kg} = \frac{\text{peso em libras}}{2.2046}
+\end{align*}
+
+\textbf{Solução}
+
+\lstinputlisting[language=R]{codes/solution6.R}
+
+
+
+\textbf{Questão 7}
+
+Qual é o peso médio, em quilogramas, dos carros?
+
+\textbf{Solução}
+
+\lstinputlisting[language=R]{codes/solution7.R}
+
+
+
+\textbf{Questão 8}
+
+Qual é o peso médio, em quilogramas, dos carros automáticos ($am = 0$)?
+
+\textbf{Solução}
+
+\lstinputlisting[language=R]{codes/solution8.R}
+
+
+
+\textbf{Questão 9}
+
+Qual é o peso médio, em quilogramas, dos carros manuais ($am = 1$)?
+
+\textbf{Solução}
+
+\lstinputlisting[language=R]{codes/solution9.R}
+
+
+
+\textbf{Questão 10}
+
+Qual é a correlação entre essas duas variáveis, transmissão ($am$) e peso em quilogramas ($wt\_kg$)? O que isso significa?
+
+\textbf{Solução}
+
+\lstinputlisting[language=R]{codes/solution10.R}
+
+
+\textbf{Probabilidade}
+
+A probabilidade de um evento $A \subset \Omega$ ocorrer é
+
+\begin{align*}
+	\mathbb{P}(A) &= \frac{n(A)}{n(\Omega)}\\
+	&= \frac{\text{número de elementos do evento}}{\text{número de elementos do espaço amostral}}
+\end{align*}
+
+\textbf{Questão 11}
+
+Qual a probabilidade (amostral) de pegarmos (em nossa amostra) um carro manual mais pesado que o peso médio dos carros automáticos?
+
+\textbf{Solução}
+
+\lstinputlisting[language=R]{codes/solution11.R}
+
+
+
+\textbf{Questão 12}
+
+Qual a probabilidade (amostral) de pegarmos (em nossa amostra) um carro automático mais pesado que o peso médio dos carros manuais?
+
+\textbf{Solução}
+
+\lstinputlisting[language=R]{codes/solution12.R}
+
+
+
+\textbf{Questão 13}
+
+Qual a probabilidade (amostral) de pegarmos (em nossa amostra) um carro manual mais pesado que o carro automático mais leve?
+
+\textbf{Solução}
+
+\lstinputlisting[language=R]{codes/solution13.R}
+
+
+
+\textbf{Questão 14}
+
+Qual a probabilidade (amostral) de pegarmos (em nossa amostra) um carro automático mais leve que o carro manual mais pesado?
+
+\textbf{Solução}
+
+\lstinputlisting[language=R]{codes/solution14.R}
+
+
+	
+\end{document}

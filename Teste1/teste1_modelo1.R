@@ -66,17 +66,18 @@ calculaGY <- function(x) {
 
 calculaY <- function (from, to, by, operacao) {
   x <- seq(from, to, by)
-  mean_y <- NULL
+  y <- rep(0, length(x))
+  mean_y = NULL
   if (operacao == 'F') {
     y <- calculaFY(x)
     plot(x,y)
-    mean_y <- mean(y)
+    mean_y = mean(y)
   } else if (operacao == 'G') {
-    y <-calculaGY(x)
+    y <- calculaGY(x)
     plot(x,y)
-    mean_y <- mean(y)
+    mean_y = mean(y)
   }
-  return(mean_y)
+  return(mean_y) 
 }
 
 calculaY(-50, 50, 0.3, 'A')
