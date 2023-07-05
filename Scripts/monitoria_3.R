@@ -136,7 +136,7 @@ View(df)
 
 
 
-library(tidyr)
+library(tidyverse)
 
 df <- df %>% 
   drop_na()
